@@ -1,0 +1,30 @@
+.login-container {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  padding: 10px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1e40af;
+}
+
+.welcome {
+  text-align: center;
+  color: green;
+  font-weight: bold;
+}
